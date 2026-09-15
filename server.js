@@ -240,7 +240,7 @@ function serveStatic(req, res) {
     const ext = path.extname(filePath);
     res.writeHead(200, {
       "content-type": contentTypes[ext] || "application/octet-stream",
-      "cache-control": ext === ".html" ? "no-store" : "public, max-age=3600"
+      "cache-control": ext === ".html" || ext === ".css" || ext === ".js" ? "no-store" : "public, max-age=3600"
     });
     res.end(data);
   });
