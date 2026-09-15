@@ -1,0 +1,20 @@
+{
+  "name": "aroma-parking-app",
+  "version": "1.0.0",
+  "description": "Aroma Parking App for Aroma Church parking team training.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "aroma-church",
+    "parking-team",
+    "training"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aroma Church Parking Team Training</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="auth-view" class="auth-view" hidden>
+        <div class="brand-lockup" aria-label="Aroma Church Parking Team Training">
+          <span class="brand-mark">A</span>
+          <div>
+            <p>Aroma Church</p>
+            <h1>Parking Team Training</h1>
+          </div>
+        </div>
+
+        <form id="auth-form" class="auth-panel">
+          <div class="auth-heading">
+            <h2 id="auth-title">Welcome</h2>
+            <p id="auth-copy">Sign in to continue your parking team training.</p>
+          </div>
+
+          <label>
+            Email address
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </label>
+
+          <label>
+            Password
+            <input id="password" name="password" type="password" autocomplete="current-password" minlength="8" required>
+          </label>
+
+          <p id="auth-error" class="form-error" role="alert"></p>
+
+          <button id="auth-submit" type="submit">Sign in</button>
+          <button id="toggle-auth-mode" type="button" class="text-button">Create a new account</button>
+        </form>
+      </section>
+
+      <section id="training-view" class="training-view" hidden>
+        <header class="topbar">
+          <button id="back-button" class="icon-button" type="button" aria-label="Back" hidden>
+            <span aria-hidden="true">‹</span>
+          </button>
+
+          <div>
+            <p>Aroma Church</p>
+            <h1 id="screen-title">Parking Team Training</h1>
+          </div>
+
+          <button id="logout-button" class="logout-button" type="button">Sign out</button>
+        </header>
+
+        <section id="category-screen" class="screen">
+          <div class="section-heading">
+            <p id="signed-in-user"></p>
+            <h2>Choose a training area</h2>
+          </div>
+          <div id="category-grid" class="category-grid"></div>
+        </section>
+
+        <section id="video-screen" class="screen" hidden>
+          <div class="section-heading">
+            <p id="category-summary"></p>
+            <h2 id="category-title"></h2>
+          </div>
+          <div id="video-list" class="video-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

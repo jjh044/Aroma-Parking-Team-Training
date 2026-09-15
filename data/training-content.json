@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "id": "safety",
+      "title": "Safety",
+      "summary": "Core safety expectations, awareness, and guest-first parking team habits.",
+      "videos": [
+        {
+          "title": "Safety orientation",
+          "description": "Start here before serving in any parking lot area.",
+          "duration": "Add duration",
+          "url": ""
+        },
+        {
+          "title": "Traffic awareness and hand signals",
+          "description": "How to stay visible and communicate clearly with drivers.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "parking-lot-flow-overview",
+      "title": "Parking Lot Flow Overview",
+      "summary": "The big-picture flow from guest arrival to exit.",
+      "videos": [
+        {
+          "title": "Full parking lot flow overview",
+          "description": "Walk through the normal Sunday parking pattern from start to finish.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "shuttle-intake-outake",
+      "title": "Shuttle Intake/Outake",
+      "summary": "How to intake, stage, load, unload, and release shuttle traffic.",
+      "videos": [
+        {
+          "title": "Shuttle intake and outake basics",
+          "description": "Key steps for safely moving guests through shuttle pickup and drop-off.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "main-lot-north",
+      "title": "Main Lot North",
+      "summary": "Training for directing traffic and filling spaces in the north main lot.",
+      "videos": [
+        {
+          "title": "Main Lot North walkthrough",
+          "description": "Positioning, flow, and handoff points for this section.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "main-lot-south",
+      "title": "Main Lot South",
+      "summary": "Training for the south main lot entry, movement, and guest handoff.",
+      "videos": [
+        {
+          "title": "Main Lot South walkthrough",
+          "description": "How to keep traffic moving while welcoming guests well.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "kentucky-st",
+      "title": "Kentucky St",
+      "summary": "Street-side instructions for Kentucky St positioning and flow.",
+      "videos": [
+        {
+          "title": "Kentucky St training",
+          "description": "Where to stand, what to watch, and how to communicate with the team.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "overflow-1",
+      "title": "Overflow #1",
+      "summary": "First overflow lot setup, routing, and release training.",
+      "videos": [
+        {
+          "title": "Overflow #1 walkthrough",
+          "description": "How to receive, park, and release cars from Overflow #1.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "overflow-2",
+      "title": "Overflow #2",
+      "summary": "Second overflow lot setup, routing, and release training.",
+      "videos": [
+        {
+          "title": "Overflow #2 walkthrough",
+          "description": "How to receive, park, and release cars from Overflow #2.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "overflow-3",
+      "title": "Overflow #3",
+      "summary": "Third overflow lot setup, routing, and release training.",
+      "videos": [
+        {
+          "title": "Overflow #3 walkthrough",
+          "description": "How to receive, park, and release cars from Overflow #3.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "signs",
+      "title": "Signs",
+      "summary": "Where signs go, when they move, and how they support the guest path.",
+      "videos": [
+        {
+          "title": "Sign setup and placement",
+          "description": "A simple guide to placing signs before service begins.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "breakdown",
+      "title": "Breakdown",
+      "summary": "End-of-service cleanup, sign collection, and equipment return.",
+      "videos": [
+        {
+          "title": "Breakdown checklist",
+          "description": "What to collect, where it goes, and how to close the lot well.",
+          "duration": "Add duration",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
