@@ -60,3 +60,15 @@ The app includes a small Node backend:
 - `GET /api/categories`
 
 Passwords are hashed with PBKDF2 before being saved. Local user accounts are stored in `data/users.json`, which is ignored by Git.
+
+## Deploy to Vercel
+
+This project also includes Vercel serverless API routes in `api/`, so it can be imported from GitHub and deployed on Vercel.
+
+Set this optional environment variable in Vercel:
+
+```text
+SESSION_SECRET=use-a-long-random-secret
+```
+
+The Vercel deployment uses signed session cookies instead of local file-based user storage. This keeps the training app usable on serverless hosting, but it is not a full production account database. For permanent volunteer accounts, connect a real database or auth provider later.
